@@ -1,0 +1,5 @@
+https://en.wikipedia.org/wiki/Post-quantum_cryptography#Algorithms
+https://link.springer.com/chapter/10.1007/978-3-319-10683-0_16
+https://en.wikipedia.org/wiki/Quantum_computing#cite_note-108
+https://en.wikipedia.org/wiki/Quantum_Turing_machine
+https://arxiv.org/abs/quant-ph/9508027
