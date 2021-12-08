@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "chrono": "c",
+        "limits": "c",
+        "algorithm": "c",
+        "ratio": "c",
+        "array": "c",
+        "initializer_list": "c",
+        "string_view": "c",
+        "utility": "c",
+        "time.h": "c",
+        "stdbool.h": "c",
+        "sstream": "c",
+        "cstdlib": "c",
+        "bigdencryption_fhev2.h": "c",
+        "bigdencryption_fhev1.h": "c"
+    }
+}

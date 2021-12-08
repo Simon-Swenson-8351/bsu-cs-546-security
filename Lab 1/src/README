@@ -1,0 +1,33 @@
+Homomorphic Encoding (Lab 1)
+
+Simon Swenson
+CS 546 - Computer Security
+Dr. Yeh
+Spring 2018, due 4/8/18
+
+The code is split up between the drivers (FHEv1.c and FHEv2.c), which parse the
+command line arguments and call the relevant library functions in 
+bigdencryption_FHEv1.c and bigdencryption_FHEv2.c. FHEv1.c and FHEv2.c also
+handle file output. The only file I/O that's needed is to store and get keys.
+There are library functions in bigdencryption_FHEv1.c and bigdencryption_FHEv2.c
+to convert keys to and from strings, which can then be directly put into files.
+
+Random number generation is achieved through the kernel's /dev/urandom file,
+which provides maximum entropy without blocking, since the kernel has access to
+hardware entropy. It works fine on my machine, but I will have to double-check
+this works on the lab computers.
+
+I don't know how much else you want me to write here, but most of the project
+was:
+    (1) Command line parsing
+    (2) File I/O
+    (3) Converting the math from the homomorphic encoding handout to code using
+        the BIGD library.
+
+To compile, you must specify the makefile, since it's in a separate directory:
+    - v1:
+        make -f gcc/Makefile FHEv1
+    - v2:
+        make -f gcc/Makefile FHEv2
+
+Usage works as described in the assignment handout.
